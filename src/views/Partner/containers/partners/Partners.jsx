@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { BsArrowUpRightSquareFill } from 'react-icons/bs';
+import { Navbar } from "../../../../components/export";
 
 import Partnerslider from "../partnerslider/Partnerslider";
 
@@ -41,6 +42,7 @@ const Partners = ({requestService}) => {
   }, [selectedPartner])
 
   return (
+    <>
     <div className='ett__partners section__padding'>
       <div className="ett__partners-heading section__margin">
         <div className="ett__partners-heading-title">
@@ -66,6 +68,7 @@ const Partners = ({requestService}) => {
         <Partnerslider partners={partners} baseURL={requestService.http.baseURL} setSelectedPartner={setSelectedPartner} />
       </div>
     </div>
+    </>
   );
 };
 

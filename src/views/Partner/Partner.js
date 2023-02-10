@@ -9,7 +9,7 @@ const Partner = ({requestService}) => {
  
   return (
     <div className='background'>
-      <Navbar />
+      <Navbar currentPage="Partner"/>
       <Partners requestService={requestService} />
       <Footer />
       <Lavabg />
