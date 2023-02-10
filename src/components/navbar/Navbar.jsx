@@ -19,7 +19,7 @@ const NavbarItems = (props) => {
       <p style={props.currentPage === "Blogs" ? orange : {}}><Link to="/blogs">Blog</Link></p>
       <p style={props.currentPage === "Partner" ? orange : {}}><Link to='/partner'>Partners</Link></p>
       <p style={props.currentPage === "Shop" ? orange : {}}><Link to="/shop">Shop</Link></p>
-      <p style={props.currentPage === "Contact" ? orange : {}}><a href="#contact">Contact</a></p>
+      <p style={props.currentPage === "Contact" ? orange : {}}><Link to="/contact">Contact</Link></p>
     </>
 )}
 

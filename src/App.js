@@ -12,6 +12,7 @@ import Projects from './views/Project/Projects';
 import Projects_sub from './views/Project/containers/Projects_sub';
 import Shop from './views/Shop/Shop';
 import EventsPage from './views/Events/Events';
+import { ContactPage } from './views/Contact/Contact';
 
 
 import { Navbar } from "./components/export";
@@ -38,6 +39,7 @@ function App({ requestService }) {
           <Route path='/projects_sub' element={<Projects_sub/>}/>
           <Route path='/shop' element={<Shop requestService={requestService}/>}/>
           <Route path='/events' element={<EventsPage requestService={requestService}/>}/>
+          <Route path='/contact' element={<ContactPage requestService={requestService}/>}/>
           
       </Routes>
       {/* <Footer /> */}

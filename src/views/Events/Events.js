@@ -4,7 +4,7 @@ import { Header } from "../Home/containers/export";
 import {Events} from "../Home/containers/export";
 import {Footer} from "../../components/export";
 
-const EventsPage = () => {
+const EventsPage = ({requestService}) => {
   return (
     <div className="background">
       <Navbar currentPage="Events" />
