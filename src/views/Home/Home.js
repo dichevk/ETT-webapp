@@ -17,7 +17,6 @@ const Home = ({requestService}) => {
         <Events />
         <Footer />
 
-        <Lavabg />
 
    </div>
   )
