@@ -1,0 +1,1 @@
+This directory contains all services that take care of the communication between the React application (frontend) and an API (backend).

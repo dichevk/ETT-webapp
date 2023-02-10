@@ -1,0 +1,27 @@
+
+.ett__teams {
+  margin: auto;
+  max-width: 1600px;
+}
+
+.ett__teams-heading {
+  font-family: var(--font-family);
+  color: white;
+  font-size: 20px;
+
+  letter-spacing: 5px;
+}
+
+.ett__teams-slider {
+  
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid var(--color-banana);
+  border-bottom: 25px solid transparent;
+  float: left;
+  margin-right: 2rem;
+}

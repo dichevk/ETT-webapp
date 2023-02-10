@@ -1,0 +1,63 @@
+.ett__brand {
+  /* display: flex;
+  flex-wrap: wrap; */
+  justify-content: center;
+  align-items: flex-start;
+
+  max-width: 1600px;
+  margin: auto;
+
+  padding-top: 5px !important;
+}
+
+.ett__brand-heading {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 21px;
+  flex-direction: row;
+  align-items: flex-end;
+  letter-spacing: 5px;
+} 
+
+.ett__brand-logo {
+  flex: 1;
+  max-width: 200px;
+  min-width: 120px;
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ett__brand-slider {
+  padding: 0rem 6rem;
+  /* border-image: url("../../../../assets/grid.png") 27 23 / 100px 30px / 0.1rem round space; */
+  /* background-image: url(../../../../assets/grid.png); */
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  /* background-position: 30% 30%; */
+}
+
+
+@media screen and (max-width: 1050px) {
+
+}
+
+@media screen and (max-width: 650px) {
+  
+}
+
+@media screen and (max-width: 490px) {
+  
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid var(--color-banana);
+  border-bottom: 25px solid transparent;
+  float: left;
+  margin-right: 2rem;
+}

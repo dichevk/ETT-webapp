@@ -1,0 +1,14 @@
+.project__featured__body{
+    margin:10vh;
+}
+
+.project__body{
+    display: flex;
+    justify-content: center;
+
+}
+
+.project__body img{
+    width:30vh;
+    height:30vh;
+}

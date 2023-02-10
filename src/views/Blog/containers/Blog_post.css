@@ -1,0 +1,32 @@
+.post{
+   
+    display: table-cell;
+    /* display: flex;
+    justify-content: center; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.post h3{
+    color:white;
+}
+
+.post h3:hover{
+    color:var(--banana-color);
+    margin-top:0px;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+
+.post img{
+    width:50vh;
+    height:50vh;
+    margin:10vh;
+}
+
+.post img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+    cursor: pointer;
+  }

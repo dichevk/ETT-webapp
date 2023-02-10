@@ -1,0 +1,152 @@
+:root{
+    --white-color: #fff;
+    --banana-color: #ffcc07;
+    --nearblack-color: #101425;
+    --darkblue-color:#23286b;
+    --cobaltblue-color:#1f499a;
+    --brightblue-color:#0000ff;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
+/* .img__box{
+    width:30vh;
+    height:30vh;
+} */
+.project__img__box img {
+    width: 30vh;
+    height: 30vh;
+    margin:0vh;
+    /* margin-right: 5vh; */
+
+}
+
+
+.project__img__box img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+  }
+
+/* .img__box{
+    width:55vh;
+    height:55vh; 
+    border: dashed solid var(--white-color);
+    background-size: 7px 2px;
+    overflow: hidden; 
+
+    } */
+
+
+.project__box{
+    color:white;
+    margin-left: 5vh;
+}
+
+.project{
+    margin-bottom:30vh;
+}
+
+
+.project__title{
+    color:var(--banana-color);
+    margin-top:0px;
+
+}
+
+.project__dna{
+    display: flex;
+    align-items: center;
+   
+}
+
+.project__dna p{
+    margin-left:1vh;
+}
+
+.project__date{
+    margin-right: 2vh;
+}
+.project__text{
+    margin:5vh;
+    width: 50vh;
+}
+
+.learn_more{
+    color:var(--banana-color)
+}
+
+.learn_more:hover{
+    text-decoration: underline;
+    color:var(--white-color);
+    transition: all 1s;
+}
+
+
+
+
+/* .ett__brand {
+
+    justify-content: center;
+    align-items: flex-start;
+  
+    max-width: 1600px;
+    margin: auto;
+  
+    padding-top: 5px !important;
+  } */
+  
+  .ett__brand-heading {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 21px;
+    flex-direction: row;
+    align-items: flex-end;
+    letter-spacing: 5px;
+  } 
+  
+  .ett__brand-logo {
+    flex: 1;
+    max-width: 200px;
+    min-width: 120px;
+    margin: 1rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .ett__brand section__padding{
+      padding-bottom:0px;
+  }
+/* .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid var(--color-banana);
+    border-bottom: 25px solid transparent;
+    float: left;
+    margin-right: 2rem;
+  } */
+
+.project__head{
+    display: flex;
+    align-items: center;
+    padding:0px;
+}
+
+.project__head h1{
+    margin-left:1vh;
+}
+
+.BsFillCaretRightFill {
+    color:#ffcc07;
+    background-color:var(--banana-color);
+}

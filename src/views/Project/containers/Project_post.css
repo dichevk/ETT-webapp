@@ -1,0 +1,32 @@
+.project__post{
+   
+    display: table-cell;
+    /* display: flex;
+    justify-content: center; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.project__post h3{
+    color:white;
+}
+
+.project__post h3:hover{
+    color:var(--banana-color);
+    margin-top:0px;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+
+.project__post img{
+    width:50vh;
+    height:50vh;
+    margin:10vh;
+}
+
+.project__post img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+    cursor: pointer;
+  }

@@ -1,0 +1,162 @@
+.ett__header {
+  display: flex;
+  /* background-image: url(../../../../assets/grid.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 30% 30%; */
+  /* background-position: 200px 100px; */
+  max-width: 1700px;
+  margin: auto;
+  padding-right: 250px !important;
+  padding-top: 5px !important;
+}
+
+.ett__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+  padding-bottom: 4rem;
+
+  max-width: 1200px;
+
+}
+
+.ett__header-content img {
+  margin-left: 10rem;
+  width: 60%;
+}
+
+.ett__header-content p {
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--color-white);
+
+  text-align: justify;
+  text-justify: inter-word;
+  /* margin-top: 1.5rem; */
+  margin-left: 10rem;
+  /* width: 500px; */
+}
+
+.ett__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ett__header-image img {
+  margin-right: 4rem;
+  width: 100%;
+  transition: all 1s;
+  border-image: url("../../../../assets/grid.png") 27 23 / 50px 30px / 1rem round space;
+  /* filter: drop-shadow(8px 8px 10px var(--color-banana)); */
+}
+
+/* .ett__header-image img:hover {
+  filter: drop-shadow(8px 8px 10px var(--color-banana));
+} */
+
+@media screen and (max-width: 1050px) {
+  .ett__header {
+      flex-direction: column;
+  }
+
+  .ett__header-content {
+    margin: 0 0 3rem;
+    align-items: center;
+    
+    /* display: inline-block; */
+  }
+
+  .ett__header-content p {
+    padding-left: 5rem;
+  }
+
+  .ett__header p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-left: auto;
+    padding-left: 0;
+  }
+
+  .ett__header-content {
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .ett__header-content img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /* justify-content: center;
+    text-align: center; */
+  }
+
+  .ett__header-image img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .ett__header p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: auto;
+  }
+
+  .ett__header-content {
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .ett__header-content img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /* justify-content: center;
+    text-align: center; */
+  }
+
+  .ett__header-image img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .ett__header {
+    flex-direction: column;
+  }
+
+  .ett__header p {
+      font-size: 15px;
+      line-height: 24px;
+      padding-left: 0;
+  }
+
+  .ett__header-content {
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .ett__header-content img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    /* justify-content: center;
+    text-align: center; */
+  }
+
+  .ett__header-image img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
