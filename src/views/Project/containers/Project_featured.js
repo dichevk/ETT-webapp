@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 function Project_featured({project}) {
   
   return (
-    <Fade direction='down' duration={3000} cascade triggerOnce>
+    <Fade direction='down' duration={2000} cascade triggerOnce>
 
     <div href="" className='project__featured'>
       <div className ="img__box">

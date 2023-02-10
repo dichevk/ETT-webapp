@@ -20,8 +20,8 @@
 } */
 
 .project__featured img {
-    width: 60vh;
-    height: 60vh;
+    width: 50vh;
+    height: 50vh;
     margin: 0vh;
     margin-right: 10vh;
 
@@ -55,6 +55,7 @@
 .project__featured__title {
     color: var(--banana-color);
     margin-top: 0px;
+    margin-bottom: 2vh;
 }
 
 .project__featured__dna {
@@ -70,6 +71,11 @@
 
 .project__featured__date {
     margin-right: 2vh;
+    margin-top:0vh;
+}
+.project__featured__author {
+    margin-right: 2vh;
+    margin-top:0vh;
 }
 
 .project__featured__text {

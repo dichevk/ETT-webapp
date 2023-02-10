@@ -35,7 +35,7 @@ function Projects () {
           <Project project = {project_img}/>
           </div>
         <Footer/>
-        <Lavabg />
+
 
         </div>
 
